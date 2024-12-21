@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* device breakpoints
+1-telas-menores: min-width:320px, max-width:768px
+2--tablets: min-width:769px, max-width:1024px1
+3-desktops:min-width:1025px max-width:1280px
+4-telas-maiores: min-width:1281px
+*/
+
+@media screen and (min-width:769px){
+    form > label{
+        font-size: 17px;
+        margin-left: 0%;
+        
+    }
+    form > input{
+        width: 83.4%;
+        padding: 10px;
+        margin:4px 55px;
+    }
+}
+@media screen and (min-width:1280px){
+    form{
+        margin-top: 35px;
+    }
+    form > label{
+        font-size: 19px;
+        margin-left:6%;
+    }
+    form > input{
+        width: 80%;
+        padding: 12px;
+        margin-left: 12%;
+        border-radius: 10px;
+        transform: translateY(-80%);
+    }
+    form > input[type="submit"]{
+        width: 82.7%;
+        font-size: 17px;
+    }
+    form > input[type="reset"]{
+        width: 82.7%;
+        font-size: 17px;
+    }
+}
