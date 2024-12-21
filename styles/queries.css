@@ -18,9 +18,6 @@
         padding: 10px;
         margin:4px 55px;
     }
-    dialog{
-        width: 99.5%;
-    }
     dialog > div{
         width: 400px;
     }
@@ -51,9 +48,6 @@
     form > input[type="reset"]{
         width: 82.7%;
         font-size: 17px;
-    }
-    dialog{
-        width: 99.5%;
     }
     dialog > div{
         width: 550px;
