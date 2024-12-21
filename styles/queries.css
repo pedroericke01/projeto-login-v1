@@ -18,6 +18,9 @@
         padding: 10px;
         margin:4px 55px;
     }
+    dialog{
+        width: 99.5%;
+    }
 }
 @media screen and (min-width:1280px){
     form{
@@ -41,5 +44,8 @@
     form > input[type="reset"]{
         width: 82.7%;
         font-size: 17px;
+    }
+    dialog{
+        width: 99.5%;
     }
 }

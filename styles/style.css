@@ -143,16 +143,22 @@ form > input[type="reset"]:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.539);
 }
+
 dialog{
-    width: 99.5%;
+    width: 98.5%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.804);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 dialog > div{
     text-align: center;
     border-style: hidden;
 
-    width: 500px;
+    width: 410px;
     height: 170px;
     border-radius: 25px;
 
@@ -161,9 +167,9 @@ dialog > div{
     box-shadow: 1px 1px 1px black;
 
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -50%);
 }
 dialog > div > p{
     width: 350px;
@@ -190,7 +196,7 @@ dialog > div > input{
     width: 80%;
     font-size: 17px;
     padding: 5px;
-    margin-top: 24%;
+    margin-top: 27%;
     border-width: 1px;
     border-radius: 5px;
 
