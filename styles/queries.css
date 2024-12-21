@@ -21,7 +21,14 @@
     dialog{
         width: 99.5%;
     }
+    dialog > div{
+        width: 400px;
+    }
+    dialog > div > input{
+        margin-top: 28%;
+    }
 }
+
 @media screen and (min-width:1280px){
     form{
         margin-top: 35px;
@@ -47,5 +54,11 @@
     }
     dialog{
         width: 99.5%;
+    }
+    dialog > div{
+        width: 550px;
+    }
+    dialog > div > input{
+        margin-top: 21%;
     }
 }
